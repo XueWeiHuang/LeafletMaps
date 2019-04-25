@@ -1,0 +1,25 @@
+<head>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+	integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	crossorigin=""/>
+</head>
+
+<body>
+	<h1>Leaflet Map Example</h1>
+	<div id="mapid"></div>
+
+	<!-- Modal Structure -->
+	<div id="modal1" class="modal bottom-sheet">
+		<div class="modal-content">
+			<h4>Enter Notes</h4>
+			<p>latitude: <span id="lat"></span> longitude: <span id="lng"></span></p>
+            <textarea id="idNote" placeholder="jot a note about this place"></textarea>
+		</div>
+		<div class="modal-footer">
+			<a id="idButton" href="#!" class="modal-close waves-effect waves-green btn">Add Note to Map</a>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>

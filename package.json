@@ -1,0 +1,21 @@
+{
+  "name": "mar11map",
+  "version": "1.0.0",
+  "description": "leaflet map example",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "parcel public/index.html --no-hmr --port $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "Xuewei Huang",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.0"
+  },
+  "dependencies": {
+    "firebase": "^5.9.0",
+    "leaflet": "^1.4.0",
+    "materialize-css": "^1.0.0"
+  }
+}
